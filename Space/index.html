@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Explorador del Sistema Solar</title>
+</head>
+<body>
+  <h1 class='logo'>
+    Eplorador solar
+    <span>Solo con CSS</span>
+  </h1>
+  <input class='planet9' id='pluto' type='radio' name='planet'>
+  <label class='menu pluto' for='pluto'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Pluton
+      </h2>
+      <h3>39.5 AU</h3>
+    </div>
+  </label>
+  <input class='planet8' id='neptune' type='radio' name='planet'>
+  <label class='menu neptune' for='neptune'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Neptuno
+      </h2>
+      <h3>30.06 AU</h3>
+    </div>
+  </label>
+  <input class='planet7' id='uranus' type='radio' name='planet'>
+  <label class='menu uranus' for='uranus'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Urano
+      </h2>
+      <h3>19.18 AU</h3>
+    </div>
+  </label>
+  <input class='planet6' id='saturn' type='radio' name='planet'>
+  <label class='menu saturn' for='saturn'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Saturno
+      </h2>
+      <h3>9.539 AU</h3>
+    </div>
+  </label>
+  <input class='planet5' id='jupiter' type='radio' name='planet'>
+  <label class='jupiter menu' for='jupiter'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Jupiter
+      </h2>
+      <h3>5.203 AU</h3>
+    </div>
+  </label>
+  <input class='planet4' id='mars' type='radio' name='planet'>
+  <label class='mars menu' for='mars'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Marte
+      </h2>
+      <h3>1.524 AU</h3>
+    </div>
+  </label>
+  <input class='planet3' id='earth' type='radio' name='planet'>
+  <label class='earth menu' for='earth'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Tierra
+      </h2>
+      <h3>1 AU</h3>
+    </div>
+  </label>
+  <input class='planet2' id='venus' type='radio' name='planet'>
+  <label class='menu venus' for='venus'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Venus
+      </h2>
+      <h3>0.723 AU</h3>
+    </div>
+  </label>
+  <input class='planet1' id='mercury' type='radio' name='planet' checked='checked'>
+  <label class='menu mercury' for='mercury'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Mercurio
+      </h2>
+      <h3>0.39 AU</h3>
+    </div>
+  </label>
+  <div class='solar'>
+    <div class='solar_systm'>
+      <div class='mercury planet'>
+        <div class='mercury planet_description'>
+          <h2>Planeta</h2>
+          <h1>Mercurio</h1>
+          <p>Es el planeta más cercano al sol. Gira alrededor del sol más rápido que todos los demás planetas, razón por la cual los romanos lo nombraron en honor a su dios mensajero de pies veloces.</p>
+          <label for="readMercury" class="open-panel">
+         <a>
+             Sistema sola
+              <span>r</span>
+            </a>
+         </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet venus'>
+        <div class='planet_description venus'>
+          <h2>Planeta</h2>
+          <h1>Venus</h1>
+          <p>Recibe su nombre de la diosa romana del amor y la belleza. En la antigüedad, se creía que Venus era en realidad dos estrellas diferentes: la estrella vespertina y la estrella matutina.</p>
+          <label for='readVenus'>
+            <a>
+             Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='earth planet'>
+        <div class='moon moon'>
+          <h3>Luna</h3>
+          <h2>Luna</h2>
+        </div>
+        <div class='m trajectory'></div>
+        <div class='earth planet_description'>
+          <h2>Planeta</h2>
+          <h1>Tierra</h1>
+          <p>La Tierra, nuestro hogar. Es el único planeta conocido que posee una atmósfera con oxígeno libre, océanos de agua líquida en su superficie y, por supuesto, vida.</p>
+          <label for='readEarth'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='mars planet'>
+        <div class='deimos moon'>
+          <h3>Luna</h3>
+          <h2>Deimos</h2>
+        </div>
+        <div class='d trajectory'></div>
+        <div class='moon phoebos'>
+          <h3>Luna</h3>
+          <h2>Phoebos</h2>
+        </div>
+        <div class='p trajectory'></div>
+        <div class='mars planet_description'>
+          <h2>Planeta</h2>
+          <h1>Marte</h1>
+          <p>Cuarto planeta desde el Sol y el segundo más pequeño del sistema solar. Recibe su nombre del dios romano de la guerra, a menudo descrito como el "Planeta Rojo".</p>
+          <label for='readMars'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='jupiter planet'>
+        <div class='lo moon'>
+          <h3>Luna</h3>
+          <h2>Io</h2>
+        </div>
+        <div class='europa moon'>
+          <h3>Luna</h3>
+          <h2>Europa</h2>
+        </div>
+        <div class='ganymede moon'>
+          <h3>Luna</h3>
+          <h2>Ganymede</h2>
+        </div>
+        <div class='lop trajectory'></div>
+        <div class='eu trajectory'></div>
+        <div class='ga trajectory'></div>
+        <div class='jupiter planet_description'>
+          <h2>Planeta</h2>
+          <h1>Jupiter</h1>
+          <p>Júpiter es el planeta más grande del sistema solar. Como corresponde, recibió su nombre del rey de los dioses en la mitología romana.</p>
+          <label for='readJupiter'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet saturn'>
+        <div class='moon titan'>
+          <h3>Luna</h3>
+          <h2>Titan</h2>
+        </div>
+        <div class='dione moon'>
+          <h3>Luna</h3>
+          <h2>Dione</h2>
+        </div>
+        <div class='enceladus moon'>
+          <h3>Luna</h3>
+          <h2>Enceladus</h2>
+        </div>
+        <div class='ti trajectory'></div>
+        <div class='di trajectory'></div>
+        <div class='enc trajectory'></div>
+        <div class='planet_description saturn'>
+          <h2>Planeta</h2>
+          <h1>Saturno</h1>
+          <p>Saturno es el sexto planeta desde el Sol y el segundo planeta más grande del sistema solar. Saturno era el nombre romano de Cronos, el señor de los Titanes.</p>
+          <label for='readSaturn'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet uranus'>
+        <div class='miranda moon'>
+          <h3>Luna</h3>
+          <h2>Miranda</h2>
+        </div>
+        <div class='ariel moon'>
+          <h3>Luna</h3>
+          <h2>Ariel</h2>
+        </div>
+        <div class='moon umbriel'>
+          <h3>Luna</h3>
+          <h2>Umbriel</h2>
+        </div>
+        <div class='mir trajectory'></div>
+        <div class='ari trajectory'></div>
+        <div class='trajectory umb'></div>
+        <div class='planet_description uranus'>
+          <h2>Planeta</h2>
+          <h1>Urano</h1>
+          <p>El primer planeta descubierto por los científicos. Este planeta destaca por su pronunciada inclinación, que hace que su eje apunte casi directamente hacia el sol.</p>
+          <label for='readUranus'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='neptune planet'>
+        <div class='moon triton'>
+          <h3>Luna</h3>
+          <h2>Triton</h2>
+        </div>
+        <div class='moon proteus'>
+          <h3>Luna</h3>
+          <h2>Proteus</h2>
+        </div>
+        <div class='moon nereid'>
+          <h3>Luna</h3>
+          <h2>Nereid</h2>
+        </div>
+        <div class='trajectory tri'></div>
+        <div class='pro trajectory'></div>
+        <div class='ner trajectory'></div>
+        <div class='neptune planet_description'>
+          <h2>Planeta</h2>
+          <h1>Neptuno</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <label for='readNeptune'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet pluto'>
+        <div class='planet_description pluto'>
+          <h2>Planetoide</h2>
+          <h1>Pluton</h1>
+          <p>Plutón, considerado en su día el noveno planeta y el más distante del sol, es ahora el planeta enano más grande conocido del sistema solar.</p>
+          <label for='readPluto'>
+            <a>
+              Sistema sola
+              <span>r</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+  </div>
+
+ <button id="musicBtn">🌌</button>
+
+  <audio id="bgMusic" loop>
+    <source src="audio/espacio.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="transitionSound">
+    <source src="audio/travel.mp3" type="audio/mpeg">
+  </audio>
+
+<script>
+const btn = document.getElementById("musicBtn");
+const music = document.getElementById("bgMusic");
+const transitionSound = document.getElementById("transitionSound");
+
+const planets = document.querySelectorAll("input[name='planet']");
+
+planets.forEach(planet => {
+
+    planet.addEventListener("change", () => {
+
+        if (!music.paused) {
+
+            setTimeout(() => {
+
+                transitionSound.currentTime = 0;
+                transitionSound.play();
+
+            }, 250); // 250 ms = 0.25 segundo
+
+        }
+
+    });
+
+});
+
+btn.addEventListener("click", () => {
+
+    if (music.paused) {
+
+        music.play();
+        btn.textContent = "🌌 ⏸";
+
+    } else {
+
+        music.pause();
+        btn.textContent = "🌌";
+
+    }
+
+});
+</script>
+
+</body>
+</html>
+
+
