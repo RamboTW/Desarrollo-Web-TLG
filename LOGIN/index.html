@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins' , sans-serif;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url('https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D');
+ background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow: hidden;
+position: relative;
+}
+
+body::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(15, 23, 42, 0.25);
+z-index: 1;
+}
+
+.login-box{
+position: relative;
+width: 380px;
+padding: 50px 40px;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+-webkit-backdrop-filter: blur(12px);
+backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+z-index: 10;
+}
+
+h2{
+color: #ffffff;
+text-align: center;
+margin-bottom: 45px;
+font-weight: 500;
+letter-spacing: 2px;
+text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-group{
+position: relative;
+margin-bottom: 35px;
+}
+
+.input-group i{
+position: absolute;
+left: 0;
+top: 12px;
+color: rgba(255, 255, 255, 0.6);
+font-size: 16px;
+transition: 0.3s;
+}
+
+.input-group input {
+width: 100%;
+padding: 12px 5px 12px 30px;
+font-size: 15px;
+color: #ffffff;
+background: transparent;
+border: none;
+border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
+outline: none;
+transition: 0.3s;
+}
+
+.input-group label {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: -18px;
+    left: 0;
+    font-size: 12px;
+    color: #38bdf8;
+    font-weight: 500;
+}
+
+.input-group input:focus~i,
+.input-group input:valid~i {
+    color: #38bdf8;
+}
+
+.input-group input:focus {
+    border-bottom: 1.5px solid #38bdf8;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: #0ea5e9;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: #0284c7;
+    box-shadow: 0 10px 20px rgba(14, 165, 233, 0.3);
+    transform: translateY(-1px);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.signup-link a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.signup-link a:hover {
+    color: #7dd3fc;
+    text-decoration: underline;
+}
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="login-box">
+        <form id="loginForm">
+            <h2>LOGIN</h2>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+            </div>
+
+            <button type="submit" class="login-btn" id="submitBtn">
+            Sign In
+            </button>
+
+            <p class="signup-link">
+                New here? <a href="#">Create Account</a>
+            </p>
+        </form>
+    </div>
+
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const loginForm = document.getElementById('loginForm');
+    const submitBtn = document.getElementById('submitBtn');
+
+    loginForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        submitBtn.innerText = 'Verifying...';
+        submitBtn.disabled = true;
+
+        const username = document.getElementById('username').value;
+
+        setTimeout(() => {
+            alert(`Welcome back, ${username}!`);
+
+            submitBtn.innerText = 'Sign In';
+            submitBtn.disabled = false;
+
+            loginForm.reset();
+        }, 1200);
+    });
+});
+
+    </script>
+</body>
+
+</html>
