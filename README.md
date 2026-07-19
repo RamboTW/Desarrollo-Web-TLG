@@ -25,7 +25,7 @@ Aquí se encuentran diferentes páginas y aplicaciones creadas con **HTML, CSS, 
 | 🔐 Login | Interfaz de inicio de sesión desarrollada con tecnologías web. | [Ver archivos](./LOGIN) |
 | 🎓 Proyecto 1P | Proyecto académico correspondiente al primer parcial. | [Ver archivos](./Proyecto1P) |
 | 🌌 Space | Página web inspirada en el espacio y el universo. | [Ver archivos](./Space) |
-| 🐉 Dragón | Página interactiva de un Dragón desarrollado con JavaScript. | [Ver archivos](./DragonJS) |
+| 🐉 Dragón | Página interactiva de un Dragón desarrollado con JavaScript. | [Ver archivos](./Dragon_JS) |
 
 > La lista se actualizará conforme se agreguen nuevos proyectos al repositorio.
 
