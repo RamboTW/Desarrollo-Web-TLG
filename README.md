@@ -104,6 +104,7 @@ Cada proyecto puede tener una estructura, diseño y funcionamiento diferente. Al
 
 - GitHub: [@RamboTW](https://github.com/RamboTW)
 - Repositorio: [Desarrollo-Web-TLG](https://github.com/RamboTW/Desarrollo-Web-TLG)
+- Canal de Telegram: [Ɗᴇᵴɑʀʀσllσ Ꮤᴇʙ](https://t.me/Designer_UP)
 
 ---
 
