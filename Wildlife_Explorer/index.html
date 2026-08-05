@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Explorador de Vida Silvestre</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navegación principal -->
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#contacts">Contacto</a>
+            <a href="#info">Información</a>
+        </nav>
+    </header>
+
+    <!-- Carrusel principal -->
+    <main class="carousel" id="home">
+
+        <div class="slides">
+
+            <!-- IMAGEN 1: ALCE CERCA DEL LAGO -->
+            <article class="slide active">
+
+                <img
+                    src="image/img1.jpg"
+                    alt="Alce cerca de un lago"
+                >
+
+                <div class="slide-overlay"></div>
+
+                <div class="slide-content">
+
+                    <div class="author">
+                        MUNDO NATURAL
+                    </div>
+
+                    <h1 class="main-title">
+                        EXPLORADOR DE VIDA SILVESTRE
+                    </h1>
+
+                    <h2 class="animal-name">
+                        ALCE
+                    </h2>
+
+                    <p class="description">
+                        El alce es uno de los integrantes más grandes de la
+                        familia de los ciervos. Generalmente habita en bosques
+                        y regiones frías cercanas a ríos, montañas y lagos.
+                    </p>
+
+                    <div class="slide-buttons">
+
+                        <button
+                            type="button"
+                            class="see-more-btn"
+                        >
+                            VER MÁS
+                        </button>
+
+                        <button
+                            type="button"
+                            class="subscribe-btn"
+                        >
+                            SUSCRIBIRSE
+                        </button>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- IMAGEN 2: ALCE EN LA MONTAÑA -->
+            <article class="slide">
+
+                <img
+                    src="image/img2.jpg"
+                    alt="Alce salvaje en las montañas"
+                >
+
+                <div class="slide-overlay"></div>
+
+                <div class="slide-content">
+
+                    <div class="author">
+                        MUNDO NATURAL
+                    </div>
+
+                    <h1 class="main-title">
+                        EXPLORADOR DE VIDA SILVESTRE
+                    </h1>
+
+                    <h2 class="animal-name">
+                        ALCE SALVAJE
+                    </h2>
+
+                    <p class="description">
+                        Los alces salvajes se reconocen por sus enormes astas,
+                        cuerpos fuertes y largas patas. Estas características
+                        les permiten sobrevivir en ambientes montañosos.
+                    </p>
+
+                    <div class="slide-buttons">
+
+                        <button
+                            type="button"
+                            class="see-more-btn"
+                        >
+                            VER MÁS
+                        </button>
+
+                        <button
+                            type="button"
+                            class="subscribe-btn"
+                        >
+                            SUSCRIBIRSE
+                        </button>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- IMAGEN 3: ELEFANTE -->
+            <article class="slide">
+
+                <img
+                    src="image/img3.jpg"
+                    alt="Elefante en la naturaleza"
+                >
+
+                <div class="slide-overlay"></div>
+
+                <div class="slide-content">
+
+                    <div class="author">
+                        MUNDO NATURAL
+                    </div>
+
+                    <h1 class="main-title">
+                        EXPLORADOR DE VIDA SILVESTRE
+                    </h1>
+
+                    <h2 class="animal-name">
+                        ELEFANTE
+                    </h2>
+
+                    <p class="description">
+                        Los elefantes son los animales terrestres más grandes
+                        del mundo. Son inteligentes, sociales y se comunican
+                        mediante sonidos, movimientos y vibraciones.
+                    </p>
+
+                    <div class="slide-buttons">
+
+                        <button
+                            type="button"
+                            class="see-more-btn"
+                        >
+                            VER MÁS
+                        </button>
+
+                        <button
+                            type="button"
+                            class="subscribe-btn"
+                        >
+                            SUSCRIBIRSE
+                        </button>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- IMAGEN 4: JAGUAR -->
+            <article class="slide">
+
+                <img
+                    src="image/img4.jpg"
+                    alt="Jaguar en la selva"
+                >
+
+                <div class="slide-overlay"></div>
+
+                <div class="slide-content">
+
+                    <div class="author">
+                        MUNDO NATURAL
+                    </div>
+
+                    <h1 class="main-title">
+                        EXPLORADOR DE VIDA SILVESTRE
+                    </h1>
+
+                    <h2 class="animal-name">
+                        JAGUAR
+                    </h2>
+
+                    <p class="description">
+                        El jaguar es un poderoso felino que habita principalmente
+                        en bosques y regiones tropicales. Su pelaje manchado le
+                        permite camuflarse entre la vegetación.
+                    </p>
+
+                    <div class="slide-buttons">
+
+                        <button
+                            type="button"
+                            class="see-more-btn"
+                        >
+                            VER MÁS
+                        </button>
+
+                        <button
+                            type="button"
+                            class="subscribe-btn"
+                        >
+                            SUSCRIBIRSE
+                        </button>
+
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Flechas de navegación -->
+        <div class="arrows">
+
+            <button
+                type="button"
+                id="prev"
+                aria-label="Mostrar animal anterior"
+            >
+                &#10094;
+            </button>
+
+            <button
+                type="button"
+                id="next"
+                aria-label="Mostrar siguiente animal"
+            >
+                &#10095;
+            </button>
+
+        </div>
+
+        <!-- Miniaturas -->
+        <div class="thumbnails">
+
+            <!-- Miniatura 1 -->
+            <button
+                type="button"
+                class="thumbnail active"
+                data-index="0"
+                aria-label="Mostrar alce"
+            >
+
+                <img
+                    src="image/img1.jpg"
+                    alt="Miniatura del alce"
+                >
+
+                <span class="thumbnail-content">
+                    <strong>Alce</strong>
+                    <small>Hábitat lacustre</small>
+                </span>
+
+            </button>
+
+            <!-- Miniatura 2 -->
+            <button
+                type="button"
+                class="thumbnail"
+                data-index="1"
+                aria-label="Mostrar alce salvaje"
+            >
+
+                <img
+                    src="image/img2.jpg"
+                    alt="Miniatura del alce salvaje"
+                >
+
+                <span class="thumbnail-content">
+                    <strong>Alce salvaje</strong>
+                    <small>Animal de montaña</small>
+                </span>
+
+            </button>
+
+            <!-- Miniatura 3 -->
+            <button
+                type="button"
+                class="thumbnail"
+                data-index="2"
+                aria-label="Mostrar elefante"
+            >
+
+                <img
+                    src="image/img3.jpg"
+                    alt="Miniatura del elefante"
+                >
+
+                <span class="thumbnail-content">
+                    <strong>Elefante</strong>
+                    <small>Gigante terrestre</small>
+                </span>
+
+            </button>
+
+            <!-- Miniatura 4 -->
+            <button
+                type="button"
+                class="thumbnail"
+                data-index="3"
+                aria-label="Mostrar jaguar"
+            >
+
+                <img
+                    src="image/img4.jpg"
+                    alt="Miniatura del jaguar"
+                >
+
+                <span class="thumbnail-content">
+                    <strong>Jaguar</strong>
+                    <small>Felino de la selva</small>
+                </span>
+
+            </button>
+
+        </div>
+
+        <!-- Barra de progreso -->
+        <div class="progress-container">
+            <div
+                class="progress-bar"
+                id="progressBar"
+            ></div>
+        </div>
+
+    </main>
+
+    <!-- Sección de información -->
+    <section
+        class="page-section info-section"
+        id="info"
+    >
+
+        <div class="section-container">
+
+            <span class="section-label">
+                INFORMACIÓN
+            </span>
+
+            <h2>
+                Descubre el mundo animal
+            </h2>
+
+            <p>
+                Explorador de Vida Silvestre es un sitio web interactivo
+                creado para presentar algunos de los animales más
+                impresionantes de la naturaleza mediante imágenes,
+                animaciones y descripciones informativas.
+            </p>
+
+            <p>
+                Los visitantes pueden utilizar las flechas de navegación,
+                seleccionar una miniatura o esperar el cambio automático
+                para descubrir cada animal.
+            </p>
+
+            <div class="info-cards">
+
+                <article class="info-card">
+
+                    <h3>Animales salvajes</h3>
+
+                    <p>
+                        Descubre animales de bosques, montañas, selvas
+                        y otros entornos naturales.
+                    </p>
+
+                </article>
+
+                <article class="info-card">
+
+                    <h3>Diseño interactivo</h3>
+
+                    <p>
+                        Navega utilizando flechas, transiciones animadas
+                        y miniaturas seleccionables.
+                    </p>
+
+                </article>
+
+                <article class="info-card">
+
+                    <h3>Protección de la naturaleza</h3>
+
+                    <p>
+                        Aprende sobre la importancia de proteger a los
+                        animales y conservar sus hábitats naturales.
+                    </p>
+
+                </article>
+
+            </div>
+
+            <a
+                href="#home"
+                class="back-home"
+            >
+                &#8592; VOLVER AL INICIO
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section
+        class="page-section contacts-section"
+        id="contacts"
+    >
+
+        <div class="section-container">
+
+            <span class="section-label">
+                CONTACTO
+            </span>
+
+            <h2>
+                Contáctanos
+            </h2>
+
+            <p>
+                Envíanos un mensaje si deseas obtener más información
+                sobre los animales o acerca de este sitio web.
+            </p>
+
+            <form
+                class="contact-form"
+                id="contactForm"
+            >
+
+                <div class="form-group">
+
+                    <label for="contactName">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="contactName"
+                        name="contactName"
+                        placeholder="Ingresa tu nombre"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="contactEmail">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="contactEmail"
+                        name="contactEmail"
+                        placeholder="Ingresa tu correo electrónico"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="contactMessage">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="contactMessage"
+                        name="contactMessage"
+                        rows="5"
+                        placeholder="Escribe tu mensaje"
+                        required
+                    ></textarea>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="send-button"
+                >
+                    ENVIAR MENSAJE
+                </button>
+
+                <p
+                    class="form-message"
+                    id="contactMessageResult"
+                ></p>
+
+            </form>
+
+            <a
+                href="#home"
+                class="back-home"
+            >
+                &#8592; VOLVER AL INICIO
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Ventana de suscripción -->
+    <div
+        class="modal"
+        id="subscribeModal"
+        aria-hidden="true"
+    >
+
+        <div class="modal-content">
+
+            <button
+                type="button"
+                class="modal-close"
+                id="closeModal"
+                aria-label="Cerrar ventana de suscripción"
+            >
+                &times;
+            </button>
+
+            <span class="section-label">
+                SUSCRIPCIÓN
+            </span>
+
+            <h2>
+                Únete a nuestra comunidad
+            </h2>
+
+            <p>
+                Ingresa tu correo electrónico para recibir información
+                relacionada con la vida silvestre.
+            </p>
+
+            <form id="subscribeForm">
+
+                <div class="form-group">
+
+                    <label for="subscribeEmail">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="subscribeEmail"
+                        name="subscribeEmail"
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="subscribe-submit"
+                >
+                    SUSCRIBIRME AHORA
+                </button>
+
+                <p
+                    class="form-message"
+                    id="subscribeMessage"
+                ></p>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
