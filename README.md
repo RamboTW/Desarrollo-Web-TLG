@@ -27,6 +27,7 @@ Aquí se encuentran diferentes páginas y aplicaciones creadas con **HTML, CSS, 
 | 🌌 Space | Página web inspirada en el espacio y el universo. | [Ver archivos](./Space) |
 | 🐉 Dragón | Página interactiva de un Dragón desarrollado con JavaScript. | [Ver archivos](./Dragon_JS) |
 | 📗 Wildlife Explorer | Galería interactiva del mundo animal | [Ver archivos](./Wildlife_Explorer) |
+| 🐉 Dragón-Cursor | Un Dragón que se maneja a través de un cursor 😎️| [Ver archivos](./Dragon-Cursor) |
 
 > La lista se actualizará conforme se agreguen nuevos proyectos al repositorio.
 
