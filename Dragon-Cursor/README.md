@@ -42,3 +42,9 @@ También puedes abrir `index.html` directamente en un navegador. No se necesita 
 ## Uso
 
 Mueve el mouse por la pantalla y observa cómo el dragón sigue el cursor mientras su cuerpo se curva de forma natural. Si dejas de moverlo, la animación continúa con un movimiento ondulante.
+
+## 🌐 Demo en vivo
+
+Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
+
+🔗 **[Dragon Cursor Netlify](https://marvelous-stroopwafel-75a8e0.netlify.app)**
