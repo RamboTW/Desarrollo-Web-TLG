@@ -63,4 +63,4 @@ El modelo 3D original *Poly Heart* fue creado por Quaternius y distribuido bajo 
 
 ---
 
-⭐ Si te gusta el proyecto, puedes dejar una estrella en el repositorio.
+⭐ Si te gusta el proyecto, puedes dejar una estrella en el repositorio o en nuestro canal de telegram.
