@@ -47,4 +47,4 @@ Mueve el mouse por la pantalla y observa cómo el dragón sigue el cursor mientr
 
 Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
 
-🔗 **[Dragon Cursor Netlify](https://marvelous-stroopwafel-75a8e0.netlify.app)**
+🔗 **[Dragon Cursor Netlify 🐉️](https://marvelous-stroopwafel-75a8e0.netlify.app)**
