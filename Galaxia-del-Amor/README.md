@@ -54,6 +54,13 @@ El usuario puede explorar la galaxia, mover la cámara, acercarse o alejarse y a
 
 También puedes ejecutarlo con la extensión **Live Server** de Visual Studio Code para obtener una mejor experiencia.
 
+## 🌐 Demo en vivo
+
+Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
+
+🔗 **[Galaxia del Amor ❤️](https://charming-pegasus-82e84b.netlify.app/ )**
+
+
 ## 💌 Propósito
 
 Este proyecto fue creado como una forma creativa de expresar amor mediante la tecnología, convirtiendo palabras y emociones en una experiencia visual, musical e interactiva.
