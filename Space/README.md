@@ -54,6 +54,12 @@ También puedes ejecutarlo con la extensión **Live Server** de Visual Studio Co
 
 Este proyecto fue creado para presentar el sistema solar de una forma entretenida e interactiva, combinando información astronómica, animaciones visuales y efectos de sonido en una sola página web.
 
+## 🌐 Demo en vivo
+
+Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
+
+🔗 **[Space 🌌️ - Netlify](https://stellular-chimera-80cc67.netlify.app/)**
+
 ---
 
 ⭐ Explora cada planeta y disfruta de un pequeño viaje por el sistema solar.
