@@ -35,6 +35,13 @@ Sample/
 - Despues puede ejecutar el proyecto sin problemas con solo F5
 - Se necesita conexión a internet para cargar la librería Processing.js desde el CDN.
 
+## 🌐 Demo en vivo
+
+Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
+
+🔗 **[Dragon JS - Netlify](https://elaborate-kataifi-d1aacf.netlify.app/)**
+
+
 ## Uso
 
 Haz clic o toca la animación para cambiar el color del dragón y del escenario.
