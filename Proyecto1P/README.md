@@ -100,6 +100,12 @@ Con este proyecto se pusieron en práctica los siguientes conocimientos:
 
 Proyecto académico finalizado correspondiente al **primer parcial** de Desarrollo de Aplicaciones Web.
 
+## 🌐 Demo en vivo
+
+Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
+
+🔗 **[English Pro - Netlify](https://inspiring-kelpie-0d9ebd.netlify.app/)**
+
 ---
 
 ⭐ **EnglishPro: aprende inglés con una experiencia web clara, moderna y accesible.**
