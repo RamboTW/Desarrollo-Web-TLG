@@ -40,6 +40,12 @@ También puedes utilizar la extensión **Live Server** de Visual Studio Code par
 
 Este proyecto fue creado para presentar información sobre distintos animales mediante una interfaz llamativa e interactiva, combinando contenido visual, animaciones y una navegación sencilla.
 
+## 🌐 Demo en vivo
+
+Puedes visualizar e interactuar con el proyecto desde el siguiente enlace:
+
+🔗 **[Explorador - Netlify](https://genuine-dieffenbachia-7aee9f.netlify.app/)**
+
 ---
 
 ⭐ Explora, aprende y disfruta del mundo de la vida silvestre.
