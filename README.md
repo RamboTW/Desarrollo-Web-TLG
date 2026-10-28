@@ -29,6 +29,7 @@ Aquí se encuentran diferentes páginas y aplicaciones creadas con **HTML, CSS, 
 | 📗 Wildlife Explorer | Galería interactiva del mundo animal | [Ver archivos](./Wildlife_Explorer) |
 | 🐉 Dragón-Cursor | Un Dragón que se maneja a través de un cursor 😎️| [Ver archivos](./Dragon-Cursor) |
 | 💗️ Crystal-Heart | Una animación en forma de corazón con efectos | [Ver archivos](./Crystal-Heart-Animation) |
+| 🐺️ Dog CSS | Una animación de un perro husky | [Ver archivos](./Dog-Animation-CSS) |
 
 > La lista se actualizará conforme se agreguen nuevos proyectos al repositorio.
 
